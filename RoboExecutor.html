@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RoboExecutor · Download</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: #eee;
+      background: #0e0f13;
+    }
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #1f1f2a, #15151e);
+      padding: 0 1rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+      opacity: 0;
+      animation: fadeIn 1s 0.2s forwards;
+    }
+    .hero p {
+      margin: 1rem 0 2rem;
+      font-size: 1.2rem;
+      opacity: 0;
+      animation: fadeIn 1s 0.4s forwards;
+    }
+    .btn {
+      background: #00bcd4;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      opacity: 0;
+      animation: fadeIn 1s 0.6s forwards;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0097a7;
+      transform: scale(1.05);
+    }
+
+    .features {
+      padding: 4rem 1rem;
+      text-align: center;
+      background: #15151e;
+    }
+    .features h2 {
+      margin-bottom: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+    }
+    .grid div {
+      background: #1f1f2a;
+      padding: 2rem;
+      border-radius: 10px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: slideUp 0.8s forwards;
+    }
+    .grid div:nth-child(1){ animation-delay: 0.4s; }
+    .grid div:nth-child(2){ animation-delay: 0.6s; }
+    .grid div:nth-child(3){ animation-delay: 0.8s; }
+    .grid div:nth-child(4){ animation-delay: 1s; }
+
+    .faq {
+      padding: 4rem 1rem;
+      background: #0e0f13;
+    }
+    .faq h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    details {
+      background: #1f1f2a;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      animation: slideUp 0.8s forwards;
+    }
+    details:nth-of-type(1){ animation-delay: 0.4s; }
+    details:nth-of-type(2){ animation-delay: 0.6s; }
+    details p {
+      margin: 0.5rem 0 0;
+    }
+
+    footer {
+      padding: 2rem 1rem;
+      text-align: center;
+      background: #15151e;
+    }
+    footer .discord-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.5rem;
+      background: #5865F2;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+    footer .discord-link:hover {
+      background: #4752C4;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2.2rem; }
+      .hero p { font-size: 1rem; }
+      .btn { font-size: 1rem; padding: 0.8rem 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>RoboExecutor</h1>
+    <p>The fastest and easiest Roblox executor ever made.</p>
+    <a href="https://app.mediafire.com/folder/u1u1h654igqwp/RoboExecutor" target="_blank" class="btn">Download Now</a>
+  </div>
+
+  <section class="features">
+    <h2>Why RoboExecutor?</h2>
+    <div class="grid">
+      <div>⚡ Blazing Fast Execution</div>
+      <div>🔐 Full Byfron Bypass</div>
+      <div>🧠 Intelligent Script Handler</div>
+      <div>🎨 Beautiful UI with Guna2</div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>FAQ</h2>
+    <details>
+      <summary>Is RoboExecutor safe to use?</summary>
+      <p>Yes! It's 100% clean, no key system, and no trackers.</p>
+    </details>
+    <details>
+      <summary>How do I update it?</summary>
+      <p>Join the Discord below. All updates are posted there.</p>
+    </details>
+    <details>
+      <summary>Do I need a key?</summary>
+      <p>No. RoboExecutor is totally keyless and free.</p>
+    </details>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RoboExecutor. All rights reserved.</p>
+    <a href="https://discord.gg/xaXep8pN" target="_blank" class="discord-link">Join Our Discord</a>
+  </footer>
+
+</body>
+</html>
